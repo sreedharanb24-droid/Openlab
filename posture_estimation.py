@@ -104,7 +104,7 @@ def fig_to_png_bytes(fig):
     return buf.getvalue()
 
 # ---------- Header ----------
-st.title("🧭 Posture Haptic Feedback Simulator")
+st.title("⛑ Posture Haptic Feedback Simulator")
 st.subheader("IMU → Orientation (Pitch) → Dead-Zone + Hysteresis → Vibrotactile Cue")
 
 with st.sidebar:
